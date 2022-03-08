@@ -111,7 +111,7 @@ module.exports = {
 - 初始化 husky,将 git hooks 钩子交由,husky 执行`npm run prepare`
   - 初始化 husky, 会在根目录创建 .husky 文件夹
   - 创建 commit 钩子【commit 的时候会触发这个钩子】`npx husky add .husky/pre-commit "npx lint-staged"`
-- `git commit -m "fix: xxxx"`
+- 提交：`git commit -m "fix: xxxx"` 一定要加上空格
 
 ### [lint-staged](https://www.npmjs.com/package/lint-staged)
 
