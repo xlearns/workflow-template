@@ -1,0 +1,29 @@
+{
+  "name": "workflow-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "testEslint": "npx eslint src/",
+    "customerEslint": "npx eslint --rulesdir ./eslint_rules_test  src/",
+    "prettier": "npx prettier --write src/",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^16.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.13.0",
+    "commitlint": "^15.0.0",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.5",
+    "lodash": "^4.17.21",
+    "prettier": "^2.5.1"
+  }
+}
